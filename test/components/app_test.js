@@ -9,6 +9,7 @@ describe('App' , () => {
   });
 
   it('renders something', () => {
+    const component = renderComponent(app);
     expect(component).to.exist;
   });
 });
